@@ -14,6 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 	 justify-content: center;
+	   background-attachment: fixed; 
 }
 
 h1 {
@@ -130,8 +131,8 @@ h1 {
 
   .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
-    grid-gap: 5px;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
     justify-content: center;
     margin: 20px auto;
   }
@@ -155,8 +156,8 @@ h1 {
 
   .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
-    grid-gap: 5px;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
     justify-content: center;
     margin: 20px auto;
   }
