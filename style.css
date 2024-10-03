@@ -13,6 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+	 justify-content: center;
 }
 
 h1 {
@@ -50,11 +51,6 @@ h1 {
 }
 
 .card.flipped .card-inner {
-    transform:  scale(1.0) rotateY(180deg);
-    
-}
-
-.card.flipped-dead .card-inner {
     transform:  scale(1.0) rotateY(180deg);
     
 }
@@ -124,4 +120,47 @@ h1 {
     background-position: center;
     transform: scale(1.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .game-board {
+    grid-gap: 8px;
+  }
+
+  .card {
+    width: 90px;
+    height: 140px;
+  }
+
+  .reboot {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .game-board {
+    grid-gap: 5px;
+  }
+
+  .card {
+    width: 70px;
+    height: 110px;
+  }
+
+  .reboot {
+    font-size: 18px;
+    width: 120px;
+    height: 35px;
+  }
 }
