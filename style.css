@@ -1,7 +1,12 @@
 
+@font-face {
+    font-family: "mKeleti";
+    src: url("res/Keleti-Regular.ttf");
+  }
+
 
 body {
-    font-family: 'Keleti', sans-serif;
+    font-family: 'mKeleti', sans-serif;
     text-align: center;
     color: white;
     background-image: url('res/back_doow.png');
@@ -97,7 +102,7 @@ h1 {
     
     font-size: 30px;
     color: black;
-    font-family: 'Keleti', sans-serif;
+    font-family: 'mKeleti', sans-serif;
     text-align: center;
     width: 200px;
     height: 50px;
