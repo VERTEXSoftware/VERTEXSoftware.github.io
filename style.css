@@ -15,25 +15,29 @@ body {
     background-repeat: no-repeat;
 	justify-content: center;
 	background-attachment: fixed; 
+
 }
 
 h1 {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     text-shadow: black 1px 0 10px;
 }
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
-    grid-gap: 10px;
+    grid-template-columns: repeat(4, 190px);
+    grid-gap: 50px;
     justify-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
+	width: 100%;
+    height: 100%;
+	align-items: center;
 }
 
 .card {
-    width: 110px;
-    height: 170px;
+    width: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,19 +101,19 @@ h1 {
 
 .reboot {
     
-    font-size: 30px;
+    font-size: 50px;
     color: black;
     font-family: 'mKeleti', sans-serif;
     text-align: center;
-    width: 200px;
-    height: 50px;
+    width: 350px;
+    height: 300px;
     border: none;
     background-color: rgba(0, 0, 0, 0);
     background-image: url('res/button.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
 }
 
 .reboot:hover {
