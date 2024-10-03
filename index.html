@@ -1,54 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="icon" type="image/png" href="resource/Image/vertex_icon.png">
     <meta charset="UTF-8">
-    <img src="Image/" alt="logo">
-    <link href="resource/style/style.css" rel="stylesheet">
-    <title>VERTEX Software</title>
+    <title>НАЙДИ ВСЕ ПАРЫ !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
-    <header>
-        <img src="resource/Image/logo_vertex_inv_w.png" alt="Logo_vertex">
-    </header>
-
-    <div class="container">
-
-        <nav class="sidebar">
-            <h2>Меню</h2>
-            <a href="index.html">Главная</a>
-            <a href="About.html">О нас</a>
-            <a href="VERTEX_Tech.html">Технологии</a>
-            <a href="In_Projects.html">Применение</a>
-
-            <nav class="sidebar-footer">
-                &copy; 2024 VERTEX Software by Sleptsov Vladimir. All rights reserved.
-            </nav>
-        </nav>
-
-        <main class="content">
-            <center>
-            <h1>Добро пожаловать</h1>
-            </center>
-            <br>
-            <p>На данном сайте вы можете ознакомится с технологическими и программными решениями от <b>VERTEX Software</b>.</p>
-            <br>
-            <h2>Список предоставляемых техологий:</h2>
-
-            <ul class="ul-list">
-                <li><a href="VERTEX_Tech.html">OVERPointer</a></li>
-                <li><a href="VERTEX_Tech.html">SAMP</a></li>
-                <li><a href="VERTEX_Tech.html">SLIM</a></li>
-            </ul>
-
-  
-        </main>
-
-        
-    </div>
-
-   
-
+    <h1 class="result-text">НАЙДЕНО КАРТ 0</h1>
+    <div class="game-board" id="game-board"></div>
+    <button class="reboot" onclick="resetGame()">СБРОСИТЬ</button>
+    <script src="script.js"></script>
 </body>
-</html>
