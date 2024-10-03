@@ -122,14 +122,18 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Адаптация для мобильных устройств */
+
 @media (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
 
   .game-board {
-    grid-gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
   }
 
   .card {
@@ -150,7 +154,11 @@ h1 {
   }
 
   .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
     grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
   }
 
   .card {
