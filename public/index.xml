@@ -6,26 +6,26 @@
     <description>Recent content on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 22:55:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 23:02:34 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Third Post</title>
       <link>http://localhost:1313/posts/my-third-post/</link>
-      <pubDate>Tue, 07 Apr 2026 22:55:21 +0900</pubDate>
+      <pubDate>Tue, 07 Apr 2026 23:02:34 +0900</pubDate>
       <guid>http://localhost:1313/posts/my-third-post/</guid>
       <description></description>
     </item>
     <item>
       <title>My Second Post</title>
       <link>http://localhost:1313/posts/my-second-post/</link>
-      <pubDate>Tue, 07 Apr 2026 22:55:15 +0900</pubDate>
+      <pubDate>Tue, 07 Apr 2026 23:02:29 +0900</pubDate>
       <guid>http://localhost:1313/posts/my-second-post/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 07 Apr 2026 22:55:06 +0900</pubDate>
+      <pubDate>Tue, 07 Apr 2026 23:02:23 +0900</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
     </item>
